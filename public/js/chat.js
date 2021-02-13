@@ -16,6 +16,7 @@ btn.addEventListener("click", function () {
       handel: nameofuser,
     });
     sc.scrollIntoView();
+    mssg.value = "";
   } else {
     alert("please Fill Message and Handel Name please 😀");
   }
